@@ -24,7 +24,7 @@ function getRandomColor() {
 
 btn[1].addEventListener('click', changeShape);
 console.log();
-let shapes = ['circle', 'square', 'triangle'];
+let shapes = ['circle', 'square', 'triangle','rightChevron','cross','rhombos','trapezoid','parrelogram','pentagon','hexagon'];
 function randomShape() {
     return shapes[Math.floor(Math.random() * shapes.length)];
 }
